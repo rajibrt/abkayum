@@ -7,11 +7,11 @@ AOS.init();
 const Hero = () => {
     return (
         <div>
-            <div className="grid grid-cols-2 xl:h-[600px] h-[240px] bg-base-20 drop-shadow-lg relative bg-[#023E73]">
+            <div className="grid grid-cols-2 h-[240px] md:h-[340px] lg:h-[550px] xl:-[900px]  bg-base-20 drop-shadow-lg relative bg-[#023E73]">
                 <div className="hero-content flex-col lg:flex-row-reverse">
 
                     <div>
-                        <h2 data-aos="fade-up" className='xl:text-5xl text-2xl font-bold text-primary'>
+                        <h2 data-aos="fade-up" className='text-2xl md:text-4xl lg:text-5xl font-bold text-primary'>
                             Hello! I'm<br />
                             Md. Abdul Kayum
                         </h2>
@@ -23,7 +23,7 @@ const Hero = () => {
                 <div>
                     <img data-aos="fade-left"
 
-                        className="  absolute bottom-0 xl:right-auto xl:right-10 right-7 xl:w-auto w-48" src={imageHalf} alt="kayumImage" />
+                        className="  absolute bottom-0 md:right-4 lg:right-4 xl:right-10 right-7 w-48 md:w-64 lg:w-2/6 xl:w-auto " src={imageHalf} alt="kayumImage" />
                 </div>
 
             </div>
