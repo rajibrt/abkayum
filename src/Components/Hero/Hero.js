@@ -1,5 +1,6 @@
 import React from 'react';
 import imageHalf from '../../Assets/image-half.webp'
+import Typewriter from 'typewriter-effect';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
@@ -11,13 +12,19 @@ const Hero = () => {
                 <div className="hero-content flex-col lg:flex-row-reverse">
 
                     <div>
-                        <h2 data-aos="fade-up" className='text-2xl md:text-4xl lg:text-5xl font-bold text-primary'>
-                            Hello! I'm<br />
-                            Md. Abdul Kayum
-                        </h2>
+                        <div className='text-2xl md:text-4xl lg:text-5xl font-bold text-primary'>
+                            <Typewriter
+                                options={{
+                                    strings: ["Hello, I'm <br/> Md. Abdul Kayum"],
+                                    autoStart: true,
+                                    loop: true,
+                                }}
+                            />
+                        </div>
                         <p data-aos="fade-up" className='text-white xl:text-xl tracking-widest text-sm text-white/70'>
                             MERN Stack Developer
                         </p>
+
                     </div>
                 </div>
                 <div>

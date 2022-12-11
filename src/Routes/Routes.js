@@ -1,5 +1,8 @@
+import Blog from "../Pages/Blog/Blog";
 import ContactMe from "../Pages/ContactMe/ContactMe";
 import Home from "../Pages/Home/Home";
+import Project from "../Pages/Projects/Project";
+import Projects from "../Pages/Projects/Projects";
 import Resume from "../Pages/Resume/Resume";
 
 const { createBrowserRouter } = require("react-router-dom");
@@ -21,6 +24,19 @@ const router = createBrowserRouter([
             {
                 path: '/resume',
                 element: <Resume></Resume>
+            },
+            {
+                path: '/projects',
+                element: <Projects></Projects>
+            },
+            {
+                path: '/project/:id',
+                element: <Project></Project>,
+                loader: ({ params }) => fetch(`projects.json/${params.id}`)
+            },
+            {
+                path: '/blog',
+                element: <Blog></Blog>
             }
         ]
     }

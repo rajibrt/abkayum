@@ -6,7 +6,9 @@ const Navbar = () => {
 
     const menuItems = <>
         <li><Link to='/'>Home</Link></li>
+        <li><Link to='/projects'>Projects</Link></li>
         <li><Link to='/resume'>Resume</Link></li>
+        <li><Link to='/blog'>Blog</Link></li>
         <li><Link to='/contactme'>Contact Me</Link></li>
 
     </>
@@ -27,7 +29,7 @@ const Navbar = () => {
                     <div className="w-10 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                         <img src={kayumImage} alt='kayumImage' />
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl md:flex hidden">Md. Abdul Kayum</a>
+                    <h2 className="btn btn-ghost normal-case text-xl md:flex hidden">Md. Abdul Kayum</h2>
                 </Link>
 
             </div>
@@ -37,7 +39,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a href="https://drive.google.com/file/d/1TnLbFJYiAhffD1nvuEGx_MEoKrJUrEij/view?usp=sharing" className="btn" target='_blank' >Download Résumé</a>
+                <a href="https://drive.google.com/uc?export=download&id=1TnLbFJYiAhffD1nvuEGx_MEoKrJUrEij" className="btn" target='_blank' >Download Résumé</a>
             </div>
         </div>
     );

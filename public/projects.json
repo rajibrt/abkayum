@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "Buy & Sell",
+        "live_ink": "https://buynsell-34a2b.web.app/",
+        "git_clint_link": "https://github.com/rajibrt/buyandsell-client",
+        "git_server_link": "https://github.com/rajibrt/buyandsell-server",
+        "feature": [
+            "Website for buy and sell used mobile phone",
+            "Worldwide access",
+            "Admin can delete any user and post",
+            "Fully responsive design",
+            "Fast loading",
+            "Clean UI",
+            "User can review service and can delete review",
+            "Nice animation on various section and modules"
+        ],
+        "tools": [
+            "React JS",
+            "Node JS",
+            "Tailwind",
+            "MongoDB",
+            "Firebase Auth",
+            "JWT token"
+        ],
+        "thumbnail": "https://i.ibb.co/CPJPF5C/buyandsell.png",
+        "gallery": [
+            "https://i.ibb.co/CPJPF5C/buyandsell.png",
+            "https://i.ibb.co/RDmHTsY/sc-2.png",
+            "https://i.ibb.co/DPd1dyF/sc-3.png"
+        ],
+        "description": 0
+    },
+    {
+        "id": 2,
+        "name": "onClick - Photography",
+        "live_ink": "https://trust-f2212.web.app//",
+        "git_clint_link": "https://github.com/rajibrt/service-review-client",
+        "git_server_link": "https://github.com/rajibrt/service-review-server",
+        "feature": [
+            "Personal photography website offering various type of photo shots",
+            "Various type of photography packages available",
+            "Worldwide access",
+            "Admin can post new service (for demo site suer can post also)",
+            "Full responsive design",
+            "Fast loading",
+            "Clean UI",
+            "User can review service and can delete review",
+            "Nice animation on various section and modules"
+        ],
+        "tools": [
+            "React JS",
+            "Node JS",
+            "Tailwind",
+            "MongoDB",
+            "Firebase Auth",
+            "JWT token"
+        ],
+        "thumbnail": "https://i.ibb.co/9YYS5ch/onClick.png",
+        "gallery": [
+            "https://i.ibb.co/zSDkys5/onclick-1.webp",
+            "https://i.ibb.co/26f4CRK/onclick-2.webp",
+            "https://i.ibb.co/ZX1FHxQ/onclick-3.webp"
+        ],
+        "description": 0
+    },
+    {
+        "id": 3,
+        "name": "Quizzy Pop",
+        "live_ink": "https://i.ibb.co/843d9K3/quizzy-1.webp",
+        "git_clint_link": "https://github.com/rajibrt/buyandsell-client",
+        "git_server_link": "https://github.com/rajibrt/buyandsell-server",
+        "feature": [
+            "It's a web design related quiz website.",
+            "This quiz side I created with react js.",
+            " This website is fully responsive for all kind of device.",
+            "Website with modern design."
+        ],
+        "tools": [
+            "React JS",
+            "Node JS",
+            "Tailwind"
+        ],
+        "thumbnail": "https://i.ibb.co/843d9K3/quizzy-1.webp",
+        "gallery": [
+            "https://i.ibb.co/rt9V3hJ/quizzy-2.webp",
+            "https://i.ibb.co/sQtRgJF/quizzy-3.webp",
+            "https://i.ibb.co/QXKpR3d/quizzy-4.webp"
+        ],
+        "description": 0
+    }
+]
